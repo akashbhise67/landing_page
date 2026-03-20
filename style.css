@@ -10,21 +10,29 @@ header{
 	/* align-items: center;
 	justify-content: center; */
 }
-nav,ul{
+nav ul{
 	display: flex;
 	padding: 10px;
 	align-items: center;
 	/* justify-content: center; */
 
 }
+
+nav ul li {
+    padding: 5px 10px;
+    justify-content: flex-end;
+}
+
 nav>ul{
 	list-style: none;
 }
 
 .headerLogo{
 	justify-content: flex-start;
+	margin-left: 150px;
+	text-decoration: none;
 }
 
-.list{
+.list > li {
 	justify-content: flex-end;
 }
